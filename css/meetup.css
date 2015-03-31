@@ -1,0 +1,57 @@
+    html, body {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-image: url("../imgs/background.jpg");
+        background-size: cover;
+    }
+
+    .container{ 
+        height: 100%;
+    }
+
+    .holder { 
+        height: 100%;
+        max-height: 100%;
+    }
+
+    #map_container {
+        background-color: rgba(71, 71, 71, 90) !important;
+    }
+
+    #cover {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.65);
+        width: 100%;
+        height: 100%;
+    }
+
+    #map {
+        height: 600px;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    #search {
+        position: relative;
+        left: 70px;
+        top: 55px;
+        z-index: 100;
+      }
+
+    .title {
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    path {
+        stroke: rgba(0,0,0,0);
+    }
+
+    .arcgisSearch .searchIcon {
+      color:red;
+      font-size:20px;
+    }
