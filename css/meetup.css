@@ -5,15 +5,20 @@
         margin: 0px;
         background-image: url("../imgs/background.jpg");
         background-size: cover;
+       
+    }
+
+    html {
+        overflow-x: hidden;
     }
 
     .container{ 
         height: 100%;
+
     }
 
     .holder { 
         height: 100%;
-        max-height: 100%;
     }
 
     #map_container {
@@ -47,11 +52,33 @@
         margin-bottom: 0px;
     }
 
-    path {
+    .arcgisSearch .showNoResults .noResultsMenu {
+        display: block;
+        width: 280px;
+    }
+
+    .esriPopup a {
+        color: #F20017 !important;
+        text-decoration: none !important; 
+    }
+
+    #map_graphics_layer path {
         stroke: rgba(0,0,0,0);
     }
+
+    #map_graphics_layer image {
+        cursor: pointer;
+    }
+
+    
 
     .arcgisSearch .searchIcon {
       color:red;
       font-size:20px;
+    }
+
+    @media (max-width: 800px) {
+      .logo {
+        height: 100px;
+      }
     }
